@@ -8,12 +8,6 @@
 
 ---
 
-## 📱 Screenshots
-
-> *(Tambahkan screenshot aplikasi di sini)*
-
----
-
 ## ✅ Prasyarat
 
 Pastikan perangkat pengembangan Anda telah terinstal:
