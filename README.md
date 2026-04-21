@@ -113,14 +113,16 @@ survey_app/
 ├── ios/                      # Konfigurasi native iOS
 ├── lib/
 │   ├── main.dart             # Entry point aplikasi
-│   ├── models/               # Model data
-│   ├── screens/              # Halaman / UI
+│   ├──core/
+│        ├──constants/        # Constant variable
+│        ├──theme/            # Tema warna
+│        ├──utils/            # Utility
+│   ├── data/                 
+│        ├──database/         # Database
+│        ├──models/           # Model
+│        ├──repositories/     # Repositories CRUD
+│   ├── features/             # Halaman / UI
 │   ├── widgets/              # Widget reusable
-│   ├── services/             # Logika API & service
-│   └── utils/                # Helper & utilitas
-├── assets/
-│   └── images/               # Gambar & ikon
-├── test/                     # Unit & widget test
 ├── pubspec.yaml              # Konfigurasi dependencies
 └── README.md
 ```
